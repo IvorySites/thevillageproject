@@ -222,7 +222,7 @@ ul.infor {
     -moz-transition: 0.5s all;
 }
 .banner-w3ls{
-     background: url(../images/village1.jpeg) no-repeat 0px 0px;
+     background: none;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -232,7 +232,7 @@ ul.infor {
     position: relative;
 }
 .banner-w3ls2{
-	 background: url(../images/working.jpg) no-repeat 0px 0px;
+	 background: url(../images/banner2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -252,7 +252,7 @@ ul.infor {
        padding-top: 3.5em;
 }
 .banner-w3ls2 h2{
-    color: #fff;
+    color: #77dd77;
     text-transform: uppercase;
     letter-spacing: 12px;
     font-size: 3em;
@@ -372,6 +372,7 @@ ul.nav.navbar-nav.navbar-right {
 /*-- about --*/
 .about {
     padding: 13em 0 5em 0;
+	margin-top: 100px;
 }
 .agileits_about_left{
 	border-right:1px solid #212121;
@@ -574,6 +575,7 @@ ul.nav.navbar-nav.navbar-right {
 }
 h3.w3l-agile {
     color: #fff;
+		text-shadow: 2px 2px #000;
 }
 h3.w3l-agile:before {
 	    content: '';
@@ -583,6 +585,9 @@ h3.w3l-agile:before {
     position: absolute;
     bottom: 0%;
     left: 44%;
+}
+.sbb {
+	text-shadow: 2px 2px #000000;
 }
 /*-- content --*/
 /*-- agileits --*/
@@ -865,7 +870,7 @@ figure.effect-winston:hover p:first-child span{
 }
 .agileinfo_events_grid1 h5 a {
        font-size: 1.6em;
-    color: #212121;
+    color: #fff;
     font-weight: bold;
     text-transform: capitalize;
     line-height: 2em;
@@ -1295,6 +1300,7 @@ figure.effect-winston:hover p:first-child span{
 	width:100%;
 }
 .banner-info {
+	margin-top: 150px;
     padding: 3em 2em;
        background: rgba(14, 14, 14, 0.67);
     width: 56%;
@@ -3105,4 +3111,7 @@ ul.social-icons li {
 
 .footer {
 	align-content: center;
+}
+.slide {
+	color: #fff;
 }
