@@ -6235,9 +6235,9 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
+  background-color: #77dd77 \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  border: 1px solid #000;
   border-radius: 10px;
 }
 .carousel-indicators .active {
@@ -6342,6 +6342,8 @@ button.close {
   display: block;
   margin-right: auto;
   margin-left: auto;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .pull-right {
   float: right !important;

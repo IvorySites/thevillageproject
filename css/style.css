@@ -578,6 +578,7 @@ h3.w3l-agile {
 		text-shadow: 2px 2px #000;
 }
 h3.w3l-agile:before {
+	font-family: 'Open Sans', sans-serif;
 	    content: '';
   background: #13a538;
     height: 1px;
@@ -587,6 +588,7 @@ h3.w3l-agile:before {
     left: 44%;
 }
 .sbb {
+	font-family: 'Open Sans', sans-serif;
 	text-shadow: 2px 2px #000000;
 }
 /*-- content --*/
@@ -1300,7 +1302,7 @@ figure.effect-winston:hover p:first-child span{
 	width:100%;
 }
 .banner-info {
-	margin-top: 150px;
+	margin-top: 200px;
     padding: 3em 2em;
        background: rgba(14, 14, 14, 0.67);
     width: 56%;
@@ -1597,6 +1599,7 @@ top: 9%;
     background-attachment: fixed;
        min-height: 671px;
     padding-top: 6em;
+	margin-top: 300px;
 }
 .page_head {
     min-height: 185px !important;
@@ -3113,5 +3116,9 @@ ul.social-icons li {
 	align-content: center;
 }
 .slide {
-	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	color: #77dd77;
+	text-shadow: 2px 2px #000;
+	padding-bottom: 100px;
 }
